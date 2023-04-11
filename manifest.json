@@ -1,21 +1,24 @@
 {
-   "service_worker": {
-      "persistent": false,
-      "scripts": "background.js"
-   },
-   "description": "A Brave browser extension to clear all completed downloads and hide toolbar icon after 2 minutes.",
-   "manifest_version": 3,
-   "name": "Auto Clear Downloads",
-   "page_action": {
-      "default_icon": {
-         "128": "AutoClearDownloads.png",
-         "16": "AutoClearDownloads.png",
-         "32": "AutoClearDownloads.png",
-         "48": "AutoClearDownloads.png"
-      }
-   },
-   "permissions": [
-   		"downloads"
-   ],
-   "version": "1.0.0"
+  "background":
+  {
+    "service_worker": "background.js"
+  },
+  "description": "A Brave browser extension to clear all completed downloads and hide toolbar icon after 2 minutes.",
+  "manifest_version": 3,
+  "minimum_chrome_version": "111",
+  "name": "Auto Clear Downloads",
+  "homepage_url": "https://endurtech.com/auto-clear-downloads-extension-chrome-web-store/",
+  "icons":
+  {
+    "256": "images/256x256.png",
+    "128": "images/128x128.png",
+    "48": "images/48x48.png"
+  },
+  "action":
+  {
+    "default_icon": "images/128x128.png"
+  },
+  "permissions": [ "downloads" ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0.1"
 }
