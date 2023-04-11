@@ -3,7 +3,7 @@
   {
     "service_worker": "background.js"
   },
-  "description": "A Brave browser extension to clear all completed downloads and hide toolbar icon after 2 minutes.",
+  "description": "A Brave browser extension to clear all completed downloads and hide toolbar icon after 30 seconds.",
   "manifest_version": 3,
   "minimum_chrome_version": "111",
   "name": "Auto Clear Downloads",

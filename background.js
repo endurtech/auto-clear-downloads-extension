@@ -1,6 +1,6 @@
 var cleardownloads = function()
 {
-	var clearfreq = 60000;
+	var clearfreq = 30000;
 	setTimeout( function()
   {
 		chrome.downloads.erase( {state: "complete"} );

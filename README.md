@@ -1,5 +1,5 @@
 # Auto Clear Downloads
-A Brave browser extension to clear all completed downloads & hide the downloads icon in toolbar after two minutes. This extension was cloned from the Always Clear Downloads 2 Extension [Always Clear Downloads 2](https://chrome.google.com/webstore/detail/always-clear-downloads-2/jcajchndfkmnaefkhoaoiagemplbfffn) which would do the same after 5 seconds. Like my 2 minute version? [Buy me a cup of coffee](https://endurtech.com/give-thanks/).
+A Brave browser extension to clear all completed downloads & hide the downloads icon in toolbar after 30 seconds. This extension was cloned from the Always Clear Downloads 2 Extension [Always Clear Downloads 2](https://chrome.google.com/webstore/detail/always-clear-downloads-2/jcajchndfkmnaefkhoaoiagemplbfffn) which would do the same after 5 seconds. Like my 30 second version? [Buy me a cup of coffee](https://endurtech.com/give-thanks/).
 
 ## Installation
 Install this Extension for Brave browser, Chrome or Edge from the [Chrome Web Store](#).
